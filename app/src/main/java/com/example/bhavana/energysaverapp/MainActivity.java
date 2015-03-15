@@ -94,19 +94,17 @@ public class MainActivity extends ActionBarActivity {
             myListView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    // Redirect to BarCode Scanner App
                     if(mainMenuItems[2].equalsIgnoreCase((String) ((TextView) view).getText())) {
                         Log.i("Event Listener",view.toString());
                         IntentIntegrator scanIntegrator = new IntentIntegrator(getActivity());
                         scanIntegrator.initiateScan();
                     }
+                    // Redirect to a website
                     else if(mainMenuItems[3].equalsIgnoreCase((String) ((TextView) view).getText()))
                     {
-                        String webpage = "http//:www.google.com";
-                        Intent intent = new Intent(Intent.ACTION_VIEW);
-                        intent.setData(Uri.parse(webpage));
-                        //if (intent.resolveActivity(getPackageManager()) != null) {
-                            startActivity(intent);
-                       // }
+                        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
+                        startActivity(i);
                     }
                 }
 
