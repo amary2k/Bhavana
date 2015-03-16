@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">EnergySaverApp</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">Energy Doctor</string>
+    <string name="title_activity_main">Menu</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="title_activity_solutions">Solutions</string>
 
 </resources>

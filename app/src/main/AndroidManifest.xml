@@ -21,6 +21,18 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main" >
         </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".StatisticsActivity"
+            android:label="@string/title_activity_statistics" >
+        </activity>
+        <activity
+            android:name=".SolutionsActivity"
+            android:label="@string/title_activity_solutions" >
+        </activity>
     </application>
 
 </manifest>

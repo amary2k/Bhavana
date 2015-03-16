@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Energy Saver App"
+        android:text="Energy Doctor"
         android:id="@+id/textView"
         android:textColor="@color/background_material_light"
         android:textSize="32dp"
@@ -47,7 +47,8 @@
                 android:layout_height="wrap_content" android:hint="@string/prompt_email"
                 android:inputType="textEmailAddress" android:maxLines="1"
                 android:singleLine="true"
-                android:padding="10dp" />
+                android:padding="10dp"
+                android:textColor="#ffffffff" />
 
             <EditText android:id="@+id/password" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:hint="@string/prompt_password"
@@ -55,7 +56,8 @@
                 android:imeActionLabel="@string/action_sign_in_short"
                 android:imeOptions="actionUnspecified" android:inputType="textPassword"
                 android:maxLines="1" android:singleLine="true"
-                android:padding="10dp" />
+                android:padding="10dp"
+                android:textColor="#ffffffff" />
 
             <Button android:id="@+id/email_sign_in_button" style="?android:textAppearanceSmall"
                 android:layout_width="match_parent" android:layout_height="wrap_content"
